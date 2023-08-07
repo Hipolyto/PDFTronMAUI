@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDFSample.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Button
+                x:Name="openLin"
+                Text="Open Link"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="OnOpenLinkButtonClicked" />
+            <Button
+                x:Name="openViewerButton"
+                Text="Open Viewer"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="OnOpenViewerButtonClicked" />
+            <Button
+                x:Name="openAdvancedViewerButton"
+                Text="Open Advanced Viewer"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="OnOpenAdvancedViewerButtonClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
